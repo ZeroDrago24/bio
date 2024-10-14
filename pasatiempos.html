@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Pasatiempos - Patricia Saavedra</title>
+</head>
+
+<body>
+    <div class="container contenedor">
+        <header class="header text-center py-4">
+            <h1>Patricia Saavedra</h1>
+        </header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Biografía</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Principal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="biografia.html">Biografía</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="materias.html">Materias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="pasatiempos.html">Pasatiempos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="accordion" id="accordionPasatiempos">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingPasatiempoOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePasatiempoOne" aria-expanded="true" aria-controls="collapsePasatiempoOne">
+                Lectura
+              </button>
+                        </h2>
+                        <div id="collapsePasatiempoOne" class="accordion-collapse collapse show" aria-labelledby="headingPasatiempoOne" data-bs-parent="#accordionPasatiempos">
+                            <div class="accordion-body">
+                                <div class="d-flex">
+                                    <div>
+                                        <p>Me gusta leer libros de ciencia ficcion, aventuras, terror y mangas. En los cuales destaco la saga de Harry Potter, FNAF y Bungo Stray Dogs.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingPasatiempoTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePasatiempoTwo" aria-expanded="false" aria-controls="collapsePasatiempoTwo">
+                Ajedrez
+              </button>
+                        </h2>
+                        <div id="collapsePasatiempoTwo" class="accordion-collapse collapse" aria-labelledby="headingPasatiempoTwo" data-bs-parent="#accordionPasatiempos">
+                            <div class="accordion-body">
+                                <div class="d-flex">
+                                    <div>
+                                        <p>Me gusta participar e torneos de ajedrez en mi tiempo libre, ya sea de manera presencial o vitual por medio de la plataforma Lichess.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingPasatiempoThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePasatiempoThree" aria-expanded="false" aria-controls="collapsePasatiempoThree">
+                Cursos en linea
+              </button>
+                        </h2>
+                        <div id="collapsePasatiempoThree" class="accordion-collapse collapse" aria-labelledby="headingPasatiempoThree" data-bs-parent="#accordionPasatiempos">
+                            <div class="accordion-body">
+                                <div class="d-flex">
+                                    <div>
+                                        <p>Disfruto tomar cursos en linea sobre temas relacionados al mejor aprovechamiento que la¿s herramientas tecnologicas nos ofrecen, ya sea herramientas de Google, Canva y Microsoft principalmente.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingPasatiempoFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePasatiempoFour" aria-expanded="false" aria-controls="collapsePasatiempoFour">
+                Videojuegos
+              </button>
+                        </h2>
+                        <div id="collapsePasatiempoFour" class="accordion-collapse collapse" aria-labelledby="headingPasatiempoFour" data-bs-parent="#accordionPasatiempos">
+                            <div class="accordion-body">
+                                <div class="d-flex">
+                                    <div>
+                                        <p>Usualmente paso mi tiempo libre jugamdo videojuegos en linea junto a algunas amistades, atles ser como Roblox, Don´t Starve Togheter, Mineraft, etc..</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer text-center py-3 mt-4">
+            © 2024 Patricia Saavedra. Todos los derechos reservados.
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
